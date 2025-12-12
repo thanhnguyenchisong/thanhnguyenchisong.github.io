@@ -1,4 +1,5 @@
 {
+  "id": 1,
   "name": "Thanh Nguyen Chi Song",
   "title": "Senior Fullstack Engineer",
   "tagline": "Building scalable digital experiences with modern web technologies.",
@@ -20,11 +21,6 @@
     "projects": {
       "title": "Featured Projects",
       "subtitle": "Some things I've built recently."
-
-
-
-
-
     },
     "contact": {
       "title": "Let's Work Together",
@@ -33,84 +29,54 @@
   },
   "experience": [{
     "id": "exp1",
+    "role": "Senior Fullstack Engineer",
+    "company": "NTTData VDS",
+    "period": "2025 - Present",
+    "description": "Telekom Project\nDeveloped a middleware application that receives input from multiple external systems, processes and aggregates business logic, and exposes standardized APIs for stakeholders. This solution streamlines data integration across partners and ensures efficient communication within the telecom domain.",
+    "achievements": ["Designed and implemented a middleware layer to integrate multiple external systems seamlessly.", "Exposed standardized APIs for stakeholders, improving interoperability and reducing integration complexity.", "Optimized data processing and aggregation logic, ensuring high performance and reliability.", "Enhanced scalability of the system to handle large volumes of telecom data.", "Improved communication efficiency across partners by centralizing input/output flows."]
+  }, {
+    "id": "1764927030988",
     "role": "Senior Java Developer",
     "company": "NTTData VDS",
-    "period": "2021 - Present",
-    "description": "Project: Veemos Domain: Vehicle - Car Technologies Used: Java Frameworks - Tools: RCP, JavaEE, Spring Boot, Spring Data JPA, Spring Cloud, DB2, H2, Redis, OpenSearch, FluentBit, Docker, Kubernetes, ...\nDescription: Managing the hardware and software in car model",
-    "achievements": ["Make clear the requirement in story and join all the Scrum meeting", "Development, and implementation of the logic with Java language", "Support and train the members in team", "Review source codes", "Write the technical story"]
+    "period": "2022 - 2025",
+    "description": "Managed both software and hardware components to streamline automotive software testing processes. Successfully migrated the platform to the cloud, enhancing scalability, reliability, and efficiency in vehicle testing environments.",
+    "achievements": ["Led migration of automotive testing platform (Veemos) to cloud infrastructure, improving scalability and reliability.", "Optimized database queries and caching strategies, significantly reducing response times across applications."]
   }, {
     "id": "exp2",
-    "role": "Java Developer - Technical Leader",
+    "role": " Fullstack Developer - Technical Leader",
     "company": "NTTData VDS",
-    "period": "2019 - 2021",
-    "description": "Project: Analysis Domain: Energy Technologies Used: Java, Java Script, Html, Css Frameworks - Tools: Spring Boot, Spring Data JPA, Strut2, Redis, AngularJs, jQuery, Bootstrap, Docker\nDescription: Build the analysis UI based on the energy data",
-    "achievements": ["Make clear the requirement in story and join all the Scrum meeting", "Lead in development, and implementation of the logic", "Support and train the members in team", "Review source codes", "Write the technical story"]
-  }, {
-    "id": "exp3",
-    "role": "Java Developer",
-    "company": "NTTData VDS",
-    "period": "2020 - 2021",
-    "description": "Project: Test Platform Domain: Testing Technologies Used: Java Frameworks - Tools: Spring Boot, Spring Data JPA, Spring Cloud, Spring Security, MySQL, Docker\nDescription: Build application to manage the test case",
-    "achievements": ["Make clear the requirement in story and join all the Scrum meeting", "Lead in development, and implementation in back end", "Support and train the new members in team", "Review source codes"]
+    "period": "2019 - 2022",
+    "description": "Developed an analysis UI to visualize and process energy data for improved insights.",
+    "achievements": ["Gathered and clarified requirements in user stories; actively participated in all Scrum meetings.", "Led the design, development, and implementation of core business logic.", "Provided guidance and training to team members to enhance productivity and skills.", "Conducted code reviews to ensure quality and maintain best practices.", "Authored technical documentation and user stories to support ongoing development."]
   }, {
     "id": "exp4",
     "role": "Java Developer",
     "company": "NTTData VDS",
     "period": "2017 - 2019",
-    "description": "Project: Indus Domain: Energy Technologies Used: Java Frameworks - Tools: Spring Boot, Spring Data JPA, Cassandra, ActiveMQ, AngularJs, jQuery, ElaticSearch, Redis, Bootstrap\nDescription: Collect energy data from resources then expose the REST APIs for some other teams",
-    "achievements": ["Make clear the requirement in story with Leader and BA", "Develop and implement logic follow story"]
+    "description": "Built a system to collect energy data from multiple sources and expose it via REST APIs for stakeholders.",
+    "achievements": ["Gathered and clarified requirements with leaders and business analysts.", "Designed and implemented backend logic to process and aggregate energy data.", "Developed RESTful APIs to deliver standardized energy information to partner teams.", "Ensured scalability and reliability by leveraging distributed databases and messaging systems.", "Collaborated with cross‑functional teams to integrate data pipelines and improve efficiency."]
   }
   ],
-  "projects": [{
-    "id": "p1",
-    "title": "CloudStream Dashboard",
-    "description": "A real-time analytics dashboard for monitoring cloud infrastructure metrics.",
-    "techStack": ["React", "TypeScript", "D3.js", "AWS"],
-    "link": "https://example.com",
-    "github": "https://github.com",
-    "imageUrl": "https://picsum.photos/600/400?random=1"
-  }, {
-    "id": "p2",
-    "title": "E-Commerce API",
-    "description": "A headless e-commerce backend handling 10k+ requests per second.",
-    "techStack": ["Node.js", "Express", "PostgreSQL", "Redis"],
-    "link": "https://example.com",
-    "github": "https://github.com",
-    "imageUrl": "https://picsum.photos/600/400?random=2"
-  }, {
-    "id": "p3",
-    "title": "TaskFlow Pro",
-    "description": "Collaborative project management tool with real-time updates.",
-    "techStack": ["Next.js", "Supabase", "Tailwind CSS"],
-    "link": "https://example.com",
-    "github": "https://github.com",
-    "imageUrl": "https://picsum.photos/600/400?random=3"
-  }
-  ],
+  "projects": [],
   "skills": [{
     "id": 1,
     "category": "Frontend",
-    "skills": ["React", "TypeScript", "Next.js", "Tailwind CSS", "Redux", "Framer Motion"]
+    "skills": ["Angulalr", "React", "TypeScript", "Next.js", "Tailwind CSS", "Redux"]
   }, {
     "id": 2,
     "category": "Backend",
-    "skills": ["Node.js", "Python", "Go", "PostgreSQL", "MongoDB", "GraphQL"]
+    "skills": ["Java", "Go", "PostgreSQL", "MongoDB", "GraphQL", "REST", "Spring", "Quakus"]
   }, {
     "id": 3,
     "category": "DevOps & Tools",
-    "skills": ["Docker", "AWS", "CI/CD", "Git", "Linux", "Terraform"]
+    "skills": ["Docker", "AWS", "CI/CD", "Git", "Linux", "Terraform", "Kubernetes"]
   }
   ],
   "education": [{
     "id": "e1",
-    "degree": "B.S. Computer Science",
-    "institution": "University of California, Berkeley",
-    "year": "2016"
-  }, {
-    "id": "e2",
-    "degree": "AWS Certified Solutions Architect",
-    "institution": "Amazon Web Services",
-    "year": "2020"
+    "degree": "Software Engineer",
+    "institution": "Posts and Telecommunications Institute of Technology",
+    "year": "2017"
   }
   ],
   "socials": [{
