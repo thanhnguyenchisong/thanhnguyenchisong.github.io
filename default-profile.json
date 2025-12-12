@@ -61,7 +61,7 @@
   "skills": [{
     "id": 1,
     "category": "Frontend",
-    "skills": ["Angulalr", "React", "TypeScript", "Next.js", "Tailwind CSS", "Redux"]
+    "skills": ["Angular", "React", "TypeScript", "Next.js", "Tailwind CSS", "Redux"]
   }, {
     "id": 2,
     "category": "Backend",
